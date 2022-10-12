@@ -31,3 +31,11 @@ h1, h2 {
     text-align: center;
     font-size: 500%;
 }
+
+/* logo image */
+
+#logo-image {
+    height: 400px;
+    width: 100%;
+    background: url(../images/logo-image.jpg) no-repeat center center;
+}
