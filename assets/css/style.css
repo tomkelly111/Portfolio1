@@ -56,3 +56,9 @@ h3 {
     border: 2px solid white;
     box-sizing: border-box;
 }
+
+/* Find Us Section */
+#find-us div {
+    width: fit-content
+    height: fit-content;
+}
