@@ -57,8 +57,3 @@ h3 {
     box-sizing: border-box;
 }
 
-/* Find Us Section */
-#find-us div {
-    width: fit-content
-    height: fit-content;
-}
