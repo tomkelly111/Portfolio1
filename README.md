@@ -7,3 +7,13 @@ a, a:hover, a:visited, a:active {
 
 
 took logo image from (https://www.stockvault.net/photo/134256/playing-cards#)
+
+took footer from coders coffee house:
+
+<span>Find us on:</span>
+
+		<a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
+		<a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
+		<a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
+
+		<p>Copyright © Coders Coffeehouse 2020</p>
