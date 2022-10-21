@@ -37,6 +37,19 @@ h3 {
 #logo {
     text-align: center;
     font-size: 500%;
+
+    width: 700px;
+    
+
+    padding: 10px;
+    border-width: 2px;
+    border-radius: 20px;
+
+    background-color: rgba(0, 69, 45, .7);
+
+    position: relative;
+    left: 300px;
+    top: 200px;
 }
 
 /* logo image */

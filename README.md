@@ -17,3 +17,6 @@ took footer from coders coffee house:
 		<a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
 
 		<p>Copyright © Coders Coffeehouse 2020</p>
+
+
+		colors taken from (https://mycolor.space/?hex=%2300452D&sub=1)
