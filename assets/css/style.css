@@ -14,8 +14,8 @@ a, a:hover, a:visited, a:active {
 body {
     font-family: EB Garamond, sans-serif;
     font-weight:500;
-    color: #ffffff;
-    background-color: black;
+    color:#E8F3F5;
+    background-color:#00452D;
 }
 
 /* headings and logo */
@@ -53,7 +53,7 @@ h3 {
     height: 200px;
     float: left;
     padding: 30px 0 0 10px;
-    border: 2px solid white;
+    border: 2px solid #E8F3F5;
     box-sizing: border-box;
 }
 
