@@ -23,3 +23,13 @@ took footer from coders coffee house:
 
 
 		https://www.pexels.com/photo/person-holding-king-of-diamonds-playing-card-1658747/
+
+
+		footer icons taken from love running
+		<!-- font awesome script --> 
+    <script src="https://kit.fontawesome.com/b49a34db96.js" crossorigin="anonymous"></script>
+
+	took register button styling from love running
+
+
+took small window media sizing from love running

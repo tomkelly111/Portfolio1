@@ -173,3 +173,15 @@ form {
 #results > table {
     border-spacing: 30px;
 }
+
+/* for small screen sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+    #games > div {
+        width: 75%;
+        height: 150px;
+        padding: 10px 0 0 10px;
+        margin-left: 10%;
+        
+    }
+    }
+}
