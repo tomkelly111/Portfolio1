@@ -15,7 +15,7 @@ body {
     font-family: EB Garamond, sans-serif;
     font-weight:500;
     color:#E8F3F5;
-    background: url(../images/ace.jpg) center center / cover no-repeat fixed;
+    background: url(../images/logo-image.jpg) center center / cover no-repeat fixed;
 }
 
 /* headings and logo */
@@ -46,8 +46,8 @@ h3 {
     background-color: rgba(0, 69, 45, .7);
 
     position: relative;
-    left: 300px;
-    top: 200px;
+    left: 20%;
+
 }
 
 /* style and positioning of nav bar */
@@ -61,14 +61,14 @@ nav > a {
     }
 
 .active {border-bottom: 1px solid #E8F3F5;}
-/* logo image */
+/* logo image 
 
 #logo-image {
     height: 400px;
     width: 100%;
     background: url(../images/logo-image.jpg) no-repeat center center;
 }
-
+*/
 /* About box design */
 
 .about-box {
