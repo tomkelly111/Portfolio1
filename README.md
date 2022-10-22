@@ -20,3 +20,6 @@ took footer from coders coffee house:
 
 
 		colors taken from (https://mycolor.space/?hex=%2300452D&sub=1)
+
+
+		https://www.pexels.com/photo/person-holding-king-of-diamonds-playing-card-1658747/
