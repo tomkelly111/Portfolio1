@@ -106,3 +106,19 @@ nav > a {
     position:relative;
     left: 10%
 }
+
+/* footer styling */
+.footer {
+    height: 100px;
+    text-align: center;
+    width:100%;
+    padding-top: 50px;
+	background-color: rgba(0, 69, 45, .7);
+  
+}
+
+footer i {
+    font-size: 150%;
+    margin: 10px 30px;
+}
+
