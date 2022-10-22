@@ -54,6 +54,7 @@ h3 {
 /* style and positioning of nav bar */
 nav {
     padding: .8rem;
+    border-radius: 10px;
     background-color: rgba(0, 69, 45, .7);
     display: inline-block;
   
@@ -122,3 +123,19 @@ footer i {
     margin: 10px 30px;
 }
 
+/* Register section styling */
+#register {
+    border-radius: 10px;
+    height: 200px;
+    text-align:left;
+    width:50%;
+    margin: 50px;
+    padding: 10px;
+	background-color: rgba(0, 69, 45, .7);
+    
+}
+
+#register > legend {
+    font-size: larger;
+    margin-bottom: 20px;
+}
