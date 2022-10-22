@@ -75,10 +75,11 @@ nav > a {
 .about-box {
     padding: 10px;
 	border-radius: 10px;
-	width: 25%;
+	width: 50%;
 	margin: 5%;
 	background-color: rgba(0, 69, 45, .7);
-    position: center;
+    position: relative;
+    left: 20%;
 }
 
 /* Games times section */
@@ -92,3 +93,14 @@ nav > a {
     background-color: rgba(0, 69, 45, .7);
 }
 
+/* Find us section styling */
+#find-us {
+    padding: 10px;
+	border-radius: 10px;
+	width: 70%;
+    display:inline-block;
+	margin: 5%;
+	background-color: rgba(0, 69, 45, .7);
+    position:relative;
+    left: 10%
+}
