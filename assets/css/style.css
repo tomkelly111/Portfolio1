@@ -54,6 +54,8 @@ h3 {
 /* style and positioning of nav bar */
 nav {
     padding: .8rem;
+    background-color: rgba(0, 69, 45, .7);
+    display: inline-block;
   
 }
 
