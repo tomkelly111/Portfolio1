@@ -139,3 +139,18 @@ footer i {
     font-size: larger;
     margin-bottom: 20px;
 }
+
+#results {
+    border-radius: 10px;
+    max-height: fit-content;
+    text-align:left;
+    max-width: fit-content;
+    width:50%;
+    margin: 50px;
+    padding: 20px;
+	background-color: rgba(0, 69, 45, .7);
+}
+
+#results > table {
+    border-spacing: 30px;
+}
