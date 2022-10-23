@@ -153,7 +153,7 @@ form {
     text-align:left;
     width:50%;
     margin: 50px;
-    padding: 10px;
+    padding: 20px;
 	background-color: rgba(0, 69, 45, .7);
 }
 .sign-up{
@@ -205,6 +205,15 @@ form {
       top: 50px;
     }
 
+    form {
+    border-radius: 10px;
+    height: 400px;
+    text-align:left;
+    width:50%;
+    margin: 50px;
+    padding: 20px;
+	background-color: rgba(0, 69, 45, .7);
+}
     
     #burger-menu{ display: block;}
     #logo-image{ display: none; } 
