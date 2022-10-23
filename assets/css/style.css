@@ -18,6 +18,11 @@ body {
     background: url(../images/logo-image.jpg) center center / cover no-repeat fixed;
 }
 
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
 /* headings and logo */
 
 h1, h2 {
@@ -66,14 +71,7 @@ nav > a {
     }
 
 .active {border-bottom: 1px solid #E8F3F5;}
-/* logo image 
 
-#logo-image {
-    height: 400px;
-    width: 100%;
-    background: url(../images/logo-image.jpg) no-repeat center center;
-}
-*/
 /* About box design */
 
 .about-box {
@@ -84,9 +82,15 @@ nav > a {
 	background-color: rgba(0, 69, 45, .7);
     position: relative;
     left: 20%;
+    top:130px;
 }
 
 /* Games times section */
+
+#games {
+  position: relative;
+    top:100px;
+}
 #games div {
     width: 25%;
     height: 200px;
@@ -95,6 +99,7 @@ nav > a {
     border: 2px solid #E8F3F5;
     box-sizing: border-box;
     background-color: rgba(0, 69, 45, .7);
+    
 }
 
 /* Find us section styling */
@@ -105,8 +110,9 @@ nav > a {
     display:inline-block;
 	margin: 5%;
 	background-color: rgba(0, 69, 45, .7);
-    position:relative;
-    left: 10%
+  position: relative;
+  top:100px;
+  left:10%;
 }
 
 /* footer styling */
@@ -117,6 +123,9 @@ nav > a {
     padding-top: 50px;
 	  background-color: rgba(0, 69, 45, .7);
     display:block;
+    position: relative;
+    top:80px;
+    
   
 }
 
@@ -185,6 +194,8 @@ form {
         margin-left: 10%;
         
     }
+
+    
     #burger-menu{ display: block;}
     #logo-image{ display: none; } 
     #normal-nav{ display: none; }

@@ -36,3 +36,6 @@ took small window media sizing from love running
 
 
 took burger menu from https://codepen.io/alvarotrigo/pen/MWEJEWG
+
+
+bug with fotter not sitting at bottom of page below 800px
