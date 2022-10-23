@@ -115,7 +115,8 @@ nav > a {
     text-align: center;
     width:100%;
     padding-top: 50px;
-	background-color: rgba(0, 69, 45, .7);
+	  background-color: rgba(0, 69, 45, .7);
+    display:block;
   
 }
 
@@ -289,7 +290,7 @@ html, body {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .menu-button-container {
     display: flex;
   }
