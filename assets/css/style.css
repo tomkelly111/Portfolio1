@@ -179,10 +179,12 @@ form {
     max-height: fit-content;
     text-align:left;
     max-width: fit-content;
-    width:50%;
+    width:fit-content;
     margin: 50px;
     padding: 20px;
 	background-color: rgba(0, 69, 45, .7);
+  position: relative;
+  top: 110px;
 }
 
 #results > table {
@@ -206,13 +208,7 @@ form {
     }
 
     form {
-    border-radius: 10px;
     height: 400px;
-    text-align:left;
-    width:50%;
-    margin: 50px;
-    padding: 20px;
-	background-color: rgba(0, 69, 45, .7);
 }
     
     #burger-menu{ display: block;}
