@@ -22,6 +22,7 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 12;
 }
 /* headings and logo */
 
@@ -46,7 +47,7 @@ h3 {
 
    
 
-    background-color: rgba(0, 69, 45, .7);
+    background-color: rgba(0, 69, 45, 1);
 
    
 
@@ -59,7 +60,7 @@ nav {
     padding-bottom: .8rem;
    
     width:100%;
-    background-color: rgba(0, 69, 45, .7);
+    background-color: rgba(0, 69, 45, 1);
     display: inline-block;
   
 }
@@ -187,6 +188,7 @@ form {
 
 /* for small screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
+
     #games > div {
         width: 75%;
         height: 150px;
