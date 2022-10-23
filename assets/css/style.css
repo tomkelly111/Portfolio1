@@ -137,7 +137,10 @@ footer i {
 
 /* Register section styling */
 
-
+#register {
+  position:relative;
+  top:110px;
+}
 legend {
     font-size: larger;
     margin-top:20px;
@@ -195,6 +198,11 @@ form {
         padding: 10px 0 0 10px;
         margin-left: 10%;
         
+    }
+
+    #register {
+      position:relative;
+      top: 50px;
     }
 
     
