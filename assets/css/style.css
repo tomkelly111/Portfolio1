@@ -44,53 +44,45 @@ h3 {
     text-align: center;
     font-size: 500%;
     width: 100%;
-
-   
-
     background-color: rgba(0, 69, 45, 1);
-
-   
-
-
 }
 
 /* style and positioning of nav bar */
 nav {
     padding-top: .8rem;
     padding-bottom: .8rem;
-   
     width:100%;
     background-color: rgba(0, 69, 45, 1);
     display: inline-block;
-  
 }
 
 nav > a {
-	margin: 2rem;
+	  margin: 2rem;
     position: relative;
     left: 25%;
-    }
+}
 
 .active {border-bottom: 1px solid #E8F3F5;}
 
 /* About box design */
 
 .about-box {
-    padding: 10px;
+  text-align: justify;
+  padding: 10px;
 	border-radius: 10px;
 	width: 50%;
 	margin: 5%;
 	background-color: rgba(0, 69, 45, .7);
-    position: relative;
-    left: 20%;
-    top:130px;
+  position: relative;
+  left: 20%;
+  top:130px;
 }
 
 /* Games times section */
 
 #games {
   position: relative;
-    top:100px;
+  top:100px;
 }
 #games div {
     width: 25%;
@@ -106,14 +98,15 @@ nav > a {
 /* Find us section styling */
 #find-us {
     padding: 10px;
-	border-radius: 10px;
-	width: 70%;
+	  border-radius: 10px;
+	  width: 70%;
     display:inline-block;
-	margin: 5%;
-	background-color: rgba(0, 69, 45, .7);
-  position: relative;
-  top:100px;
-  left:10%;
+	  margin: 5%;
+	  background-color: rgba(0, 69, 45, .7);
+    position: relative;
+    top:100px;
+    left:10%;
+    
 }
 
 /* Register section styling */
@@ -135,7 +128,7 @@ form {
     width:50%;
     margin: 50px;
     padding: 20px;
-	background-color: rgba(0, 69, 45, .7);
+	  background-color: rgba(0, 69, 45, .7);
 }
 .sign-up{
     margin-top: 10px;
@@ -163,9 +156,9 @@ form {
     width:fit-content;
     margin: 50px;
     padding: 20px;
-	background-color: rgba(0, 69, 45, .7);
-  position: relative;
-  top: 110px;
+	  background-color: rgba(0, 69, 45, .7);
+    position: relative;
+    top: 110px;
 }
 
 #results > table {
@@ -184,8 +177,7 @@ form {
   width:100%;
   padding-top: 50px;
   background-color: rgba(0, 69, 45, .7);
-  
-  position: absolute;
+  position: relative;
   bottom:0;
   
 
@@ -201,10 +193,9 @@ footer i {
 
     #games > div {
         width: 75%;
-        height: 150px;
+        height: 170px;
         padding: 10px 0 0 10px;
         margin-left: 10%;
-        
     }
 
     #register {
