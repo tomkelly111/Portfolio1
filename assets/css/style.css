@@ -190,6 +190,12 @@ form {
 #results > table {
     border-spacing: 30px;
 }
+#thankyou {
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+
 
 /* for small screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
@@ -214,7 +220,7 @@ form {
     #burger-menu{ display: block;}
     #logo-image{ display: none; } 
     #normal-nav{ display: none; }
-    #about {position:sticky}
+
  
         
     /* Burger Menu */
