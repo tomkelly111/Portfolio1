@@ -116,7 +116,7 @@ The footer appears on each page of the site and contains links to Facebook, Inst
              </tr>
 </table>
 ### Bugs Found
-- When carrying out manual testing it was noticed that the footer on the Thank you page did not show at the bottom of the page but instead appeared behind the Logo. This was then amended.
+- When carrying out manual testing it was noticed that the footer on the Thank you page did not show at the bottom of the page but instead appeared behind the Logo. This was then amended but could not be fixed at all screen sizes for unknown reasons.
 
 
 ### Validator Testing
