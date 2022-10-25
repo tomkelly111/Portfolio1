@@ -15,9 +15,9 @@
     <header>
         <section id="burger-menu" class="top-nav">
             <h1>The Card Club</h1>
-            <input id="menu-toggle" type="checkbox" />
+            <input id="menu-toggle" type="checkbox">
             <label class='menu-button-container' for="menu-toggle">
-            <div class='menu-button'></div>
+            <span class='menu-button'></span>
           </label>
             <ul class="menu">
                 <li><a href="index.html">Home</a></li>
@@ -47,15 +47,21 @@
     <div id="register">
     
     <form action="thankyou.html" method="get">
+        <fieldset>
         <legend>Register for Tournament Updates</legend>
 		<label for="name">Name:</label>
         <input id="name" type="text" placeholder="Your name" required>
+        </fieldset>
+        <fieldset>
         <label for="email">Email:</label>
         <input id="name" type="email" placeholder="Your email" required>
+        </fieldset>
         <br>
+        <fieldset>
         <legend>I am interested in...</legend>
         <input id="tournaments" type="radio" name="Game Type" value="tournaments">
 		<label for="tournaments">Tournaments</label>
+        </fieldset>
 		<br>
 		<input id="cash games" type="radio" name="Game Type" value="cash-games">
 		<label for="cash games">Cash Games</label>
