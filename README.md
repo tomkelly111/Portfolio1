@@ -1,12 +1,15 @@
 # [The Card Club](https://tomkelly111.github.io/The-Card-Club/)
 
-https://github.com/tomkelly111/The-Card-Club/blob/main/image.png
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/111172617/197868327-633a253d-6ff9-49ef-bbd6-045b4c72ace3.png">
+
 
 [The Card Club](https://tomkelly111.github.io/The-Card-Club/) is a website which is intended to be used by a poker club. The target audience is poker players in Dublin, Ireland. The site will be useful for people in Dublin who are looking for live poker games whether that be cash or tournament games.
 
 ## FEATURES
 
 ### Logo and Navigation Bar
+<img width="941" alt="image" src="https://user-images.githubusercontent.com/111172617/197868886-a47465b0-9eab-4c45-8fc9-a9c55bad8cd1.png">
+
 The Card Club has a logo and navigation bar which is identical accross all pages. When the logo is clicked it brings the user to the home page. The navigation bar contains links to each section of the site and allows the user to "jump" to different sections of the home page such as the "Find Us" section. Links were used in this manner to allow the user to easily navigate the site and avoid having to use the "back" button.
 
 ### About Section
