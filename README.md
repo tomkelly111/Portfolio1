@@ -100,7 +100,7 @@ The footer appears on each page of the site and contains links to Facebook, Inst
              <tr>
               <td>Resizing window to below 800px width</td>
               <td>Clicking links on drop down menu brings user to specified sections</td>
-              <td>Partial Pass - when clicking to sections of the home page, sections appear behind logo and drop down menu does not automatically close</td>
+              <td>Partial Pass - when clicking to sections of the home page drop down menu does not automatically close</td>
              </tr>
              <tr>
              <td>Resizing window to below 800px width</td>
@@ -112,6 +112,8 @@ The footer appears on each page of the site and contains links to Facebook, Inst
 ### Validator Testing
 
 HTML - No errors were returned when code was checked with the official W3C validator.
+<img width="910" alt="image" src="https://user-images.githubusercontent.com/111172617/197873160-e2124e45-ae64-4932-9188-e66a8975827b.png">
+
 CSS - No errors were returned when code was checked with the official (Jigsaw) validator.
 Accessibility - I confirmed the code used is accessible by using lighthouse in devtools.
 
