@@ -28,6 +28,8 @@ Once the user completes the Sign Up form on the Register Page, they are brought 
 The footer appears on each page of the site and contains links to Facebook, Instagram and Twitter.
 
 ## Testing
+
+### Manual Testing
 <table>  
             <tr>
               <th>Action</th>
@@ -42,7 +44,7 @@ The footer appears on each page of the site and contains links to Facebook, Inst
             <tr>
               <td>Clicking Naviagation Links</td>
               <td>Brings user to specified sections of the site</td>
-              <td>Partial Pass - when clicking to sections of the home page, sections appear behind logo.</td>
+              <td>Pass</td>
             </tr>
             <tr>
             	<td>Clicking Footer Icons</td>
@@ -100,6 +102,16 @@ The footer appears on each page of the site and contains links to Facebook, Inst
               <td>Pass</td>
              </tr>
 </table>
+
+### Validator Testing
+
+HTML - No errors were returned when code was checked with the official W3C validator.
+CSS - No errors were returned when code was checked with the official (Jigsaw) validator.
+
+### Unfixed Bugs
+When the site's "Burger" menu is used on devices with screens with a width below 800px, the menu does not automatically close when the anchor links are clicked.
+
+## Deployment
 
 
 
