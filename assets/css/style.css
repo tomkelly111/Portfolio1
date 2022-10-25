@@ -189,8 +189,11 @@ form {
 
 #thankyou {
   position: relative;
-  top: 200px;
   left: 50px;
+  max-width: 90vmax;
+  margin-top: 200px;
+  margin-bottom: 300px;
+  min-height: 70vh;
 }
 
 /* footer styling */
@@ -231,6 +234,12 @@ footer i {
     position: relative;
     top: 110px;
     margin-bottom: 65vh;
+  }
+
+  #thankyou {
+    max-width: 90vmax;
+    min-height: 90vmax;
+    margin-bottom: 300px;
   }
 
   form {
