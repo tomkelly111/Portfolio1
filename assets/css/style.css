@@ -158,7 +158,6 @@ form {
 /* results table styling */
 #results {
     border-radius: 10px;
-   
     max-height: fit-content;
     text-align:left;
     max-width: fit-content;
@@ -215,6 +214,12 @@ footer i {
       top: 50px;
     }
 
+    #results {
+      position:relative;
+      top:110px;
+      margin-bottom: 65vh;
+  }
+
     form {
     height: 400px;
 }
@@ -250,7 +255,6 @@ html, body {
   justify-content: space-between;
   background-color: #00430d;
   background: linear-gradient(to left,#00A76C,  #00452D);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
   height: 60px;
   padding: 1em;

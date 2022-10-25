@@ -144,3 +144,6 @@ took burger menu from https://codepen.io/alvarotrigo/pen/MWEJEWG
 
 
 bug with fotter not sitting at bottom of page below 800px
+
+
+fixed anchor links rom scrolling behind  header with code from (https://getpublii.com/blog/one-line-css-solution-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header.html)scroll-padding-top: 4rem;
