@@ -111,10 +111,10 @@ The footer appears on each page of the site and contains links to Facebook, Inst
 
 ### Validator Testing
 
-HTML - No errors were returned when code was checked with the official W3C validator.
+HTML - No errors were returned when code was checked with the official [W3C validator](https://validator.w3.org/).
 <img width="910" alt="image" src="https://user-images.githubusercontent.com/111172617/197873160-e2124e45-ae64-4932-9188-e66a8975827b.png">
 
-CSS - No errors were returned when code was checked with the official (Jigsaw) validator.
+CSS - No errors were returned when code was checked with the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
 Accessibility - I confirmed the code used is accessible by using lighthouse in devtools.
 
 ### Unfixed Bugs
