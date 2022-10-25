@@ -13,24 +13,31 @@
 The Card Club has a logo and navigation bar which is identical accross all pages. When the logo is clicked it brings the user to the home page. The navigation bar contains links to each section of the site and allows the user to "jump" to different sections of the home page such as the "Find Us" section. Links were used in this manner to allow the user to easily navigate the site and avoid having to use the "back" button.
 
 ### About Section
+<img width="494" alt="image" src="https://user-images.githubusercontent.com/111172617/197882265-84f91b17-b68a-4c53-a66c-b623ea6ccfd2.png">
 The About section gives a brief description of The Card Club and serves to highlight key offerings of the club to entice users to play.
 
 ### Games Section
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/111172617/197882337-90c1ef80-f856-47ac-aba3-4b1d53041571.png">
 The Games section provides a detailed list of the various games on offer at The Card Club, including times, buy-in amount, starting stack and blind levels. This section can be updated if game times change.
 
 ### Find Us Section
+<img width="502" alt="image" src="https://user-images.githubusercontent.com/111172617/197882406-a0abb7e5-b728-49bf-8908-1a4a24669867.png">
 The Find Us section provides an embeded google map which shows the location of The Card Club to enable users to find their way to The Card Club with ease.
 
 ### Register Page
+<img width="497" alt="image" src="https://user-images.githubusercontent.com/111172617/197882511-45de8585-383d-4def-96b9-1cc377bce2a9.png">
 The Register page contains a form which allows users to input their name and email address as well as select the types of games they are interested in. The form is designed so that all fields must be completed and an email address containing an "@" symbol must be used. Once signed up the user is brought to another page which thanks them for registereing. 
 
 ### Results Page
+<img width="304" alt="image" src="https://user-images.githubusercontent.com/111172617/197882579-10ab736f-b2c8-41ec-bddd-922b7aa0161c.png">
 The Results page contains a table of the three most recent tournament winners. This can be updated with new winners after each game and lists the date the game was played and the amount won.
 
 ### Thank You Page
+<img width="402" alt="image" src="https://user-images.githubusercontent.com/111172617/197882760-ccb4540a-f315-4a3e-940f-73c2ae6c09f5.png">
 Once the user completes the Sign Up form on the Register Page, they are brought to a Thank You page which contains the header and links to the rest of the site, avoiding the user being brought away from the site and allowing easy navigation back to other areas of the site.
 
 ### Footer
+<img width="488" alt="image" src="https://user-images.githubusercontent.com/111172617/197882897-73886ace-e45d-4ea4-8a6a-d051d611cce8.png">
 The footer appears on each page of the site and contains links to Facebook, Instagram and Twitter.
 
 ## TESTING
@@ -108,6 +115,9 @@ The footer appears on each page of the site and contains links to Facebook, Inst
               <td>Pass</td>
              </tr>
 </table>
+### Bugs Found
+- When carrying out manual testing it was noticed that the footer on the Thank you page did not show at the bottom of the page but instead appeared behind the Logo. This was then amended.
+
 
 ### Validator Testing
 
