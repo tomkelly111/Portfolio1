@@ -6,7 +6,7 @@
   border: none;
   scroll-padding-top: 10rem;
 }
-
+/* Code below to remove the underline and color of links in the Navigation Bar wad take from the following URL: https://stackoverflow.com/a/2204687 which was provided by users mikemaccana and simaofreitas. */
 a,
 a:hover,
 a:visited,
@@ -148,6 +148,7 @@ form {
   padding: 20px;
   background-color: rgba(0, 69, 45, .7);
 }
+/* Code for the Sign Up button below was based on code taken from the Love Running Project on https://learn.codeinstitute.net/ */
 
 .sign-up {
   margin-top: 10px;
@@ -248,7 +249,7 @@ footer i {
     display: none;
   }
 
-
+/* Code below for the "Burger" Menu that displays on screens with a width less than 800 pixels was taken from https://codepen.io/alvarotrigo/pen/MWEJEWG and provided by user Álvaro. The code was adapted by amending the colors used and updated the navigation links. */
 
   /* Burger Menu */
 
