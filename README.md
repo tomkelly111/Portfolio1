@@ -115,7 +115,8 @@ The footer appears on each page of the site and contains links to Facebook, Inst
               <td>Pass</td>
              </tr>
 </table>
-### Bugs Found
+
+### Issues Identified
 - When carrying out manual testing it was noticed that the footer on the Thank you page did not show at the bottom of the page but instead appeared behind the Logo. This was then amended but could not be fixed at all screen sizes for unknown reasons.
 
 
