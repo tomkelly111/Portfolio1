@@ -21,10 +21,10 @@ The Register page contains a form which allows users to input their name and ema
 ### Results Page
 The Results page contains a table of the three most recent tournament winners. This can be updated with new winners after each game and lists the date the game was played and the amount won.
 
-## Thank You Page
+### Thank You Page
 Once the user completes the Sign Up form on the Register Page, they are brought to a Thank You page which contains the header and links to the rest of the site, avoiding the user being brought away from the site and allowing easy navigation back to other areas of the site.
 
-## Footer
+### Footer
 The footer appears on each page of the site and contains links to Facebook, Instagram and Twitter.
 
 ## Testing
@@ -91,7 +91,7 @@ The footer appears on each page of the site and contains links to Facebook, Inst
              </tr>
              <tr>
               <td>Resizing window to below 800px width</td>
-              <td>Clicking links id drop down menu brings user to specified sections</td>
+              <td>Clicking links on drop down menu brings user to specified sections</td>
               <td>Partial Pass - when clicking to sections of the home page, sections appear behind logo and drop down menu does not automatically close</td>
              </tr>
              <tr>
