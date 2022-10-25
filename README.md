@@ -1,7 +1,10 @@
-# The Card Club
-The Card Club is a website which is intended to be used by a poker club. The target audience is poker players in Dublin, Ireland. The site will be useful for people in Dublin who are looking for live poker games whether that be cash or tournament games.
+# [The Card Club](https://tomkelly111.github.io/The-Card-Club/)
 
-## Features
+
+
+[The Card Club](https://tomkelly111.github.io/The-Card-Club/) is a website which is intended to be used by a poker club. The target audience is poker players in Dublin, Ireland. The site will be useful for people in Dublin who are looking for live poker games whether that be cash or tournament games.
+
+## FEATURES
 
 ### Logo and Navigation Bar
 The Card Club has a logo and navigation bar which is identical accross all pages. When the logo is clicked it brings the user to the home page. The navigation bar contains links to each section of the site and allows the user to "jump" to different sections of the home page such as the "Find Us" section. Links were used in this manner to allow the user to easily navigate the site and avoid having to use the "back" button.
@@ -27,7 +30,7 @@ Once the user completes the Sign Up form on the Register Page, they are brought 
 ### Footer
 The footer appears on each page of the site and contains links to Facebook, Instagram and Twitter.
 
-## Testing
+## TESTING
 
 ### Manual Testing
 <table>  
@@ -107,55 +110,74 @@ The footer appears on each page of the site and contains links to Facebook, Inst
 
 HTML - No errors were returned when code was checked with the official W3C validator.
 CSS - No errors were returned when code was checked with the official (Jigsaw) validator.
+Accessibility - I confirmed the code used is accessible by using lighthouse in devtools.
 
 ### Unfixed Bugs
 When the site's "Burger" menu is used on devices with screens with a width below 800px, the menu does not automatically close when the anchor links are clicked.
 
-## Deployment
+## DEPLOYMENT
+### Publication
+In order to publish the site, deployment was carried out using GitHub pages. In order to deploy the site the following steps were followed:
+- Open the GitHub repository
+- Navigate to the "settings" tab
+- On the left hand side of the page scroll down and select "pages" 
+- Under "source" select "deploy from a branch"
+- Under "branch" select "main"
+- Click "save"
+- The live link is: https://tomkelly111.github.io/The-Card-Club/
 
+### Local Deployment
+In order to deploy the site locally a user can enter "git clone https://github.com/tomkelly111/The-Card-Club.git" into the command prompt on their computer and hit enter.
 
+## CREDITS
 
-Took code from (https://stackoverflow.com/questions/2204634/how-to-disable-automatic-links-coloring-without-selecting-a-color) to remove underlines and color from links.
+### Color:
+- Colors were selected from the following site: https://mycolor.space/?hex=%2300452D&sub=1 
 
-a, a:hover, a:visited, a:active {
-  color: inherit;
-  text-decoration: none;
- }
+### Footer:
+- Icons for the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The code for the insertion of the icons into the footer was based on code taken from the Love Running Project on https://learn.codeinstitute.net/ Original code is as follows:
+    
 
-
-took logo image from (https://www.stockvault.net/photo/134256/playing-cards#)
-
-took footer from coders coffee house:
-
-<span>Find us on:</span>
-
-		<a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
-		<a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
-		<a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
-
-		<p>Copyright © Coders Coffeehouse 2020</p>
-
-
-		colors taken from (https://mycolor.space/?hex=%2300452D&sub=1)
-
-
-		https://www.pexels.com/photo/person-holding-king-of-diamonds-playing-card-1658747/
-
-
-		footer icons taken from love running
-		<!-- font awesome script --> 
+		<footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twiter page (opens in new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <!-- font awesome script --> 
     <script src="https://kit.fontawesome.com/b49a34db96.js" crossorigin="anonymous"></script>
 
-	took register button styling from love running
+### Navigation Links
+- Code to remove the underline and color of links in the Navigation Bar wad take from the following URL: https://stackoverflow.com/a/2204687 which was provided by users mikemaccana and simaofreitas.
+
+      a, a:hover, a:visited, a:active {
+      color: inherit;
+      text-decoration: none; } 
+
+### Media
+- The background image was taken from an open source image site at the following URL: https://www.stockvault.net/photo/134256/playing-cards#
 
 
-took small window media sizing from love running
+### Sign Up Button
+- Code for the Sign Up button on the Register page was based on code taken from the Love Running Project on https://learn.codeinstitute.net/
+		
 
+### Burger Menu
+- Code for the "Burger" Menu that displays on screens with a width less than 800 pixels was taken from https://codepen.io/alvarotrigo/pen/MWEJEWG and provided by user Álvaro. This code was useful as it was one of the few pieces of code found that allow for the use of a "Burger" Menu without the use of Javascript. The code provided by Álvaro was adapted for the Card Club by amending the colors used and updated the navigation links.
+		
+### Bugs
+Initially when the navigation links on the homepage were clicked, the section that was jumped to displayed behind the header. A fix for this was found at https://getpublii.com/blog/one-line-css-solution-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header.html and was provided by Bob Mitro. The original code which was adapted is as follows:
 
-took burger menu from https://codepen.io/alvarotrigo/pen/MWEJEWG
+      scroll-padding-top: 4rem;
 
-
-bug with fotter not sitting at bottom of page below 800px
-
-
-fixed anchor links rom scrolling behind  header with code from (https://getpublii.com/blog/one-line-css-solution-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header.html)scroll-padding-top: 4rem;
