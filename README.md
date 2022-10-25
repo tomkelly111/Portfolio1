@@ -22,7 +22,7 @@ The Games section provides a detailed list of the various games on offer at The 
 The Find Us section provides an embeded google map which shows the location of The Card Club to enable users to find their way to The Card Club with ease.
 
 ### Register Page
-The Register page contains a form which allows users to input their name and email address as well as select the types of games they are interested in. The form is designed so that all fields must be completed and an email address containing an "@" symbol must be used. Once sign3ed up the user is brought to another page which thanks them for registereing. 
+The Register page contains a form which allows users to input their name and email address as well as select the types of games they are interested in. The form is designed so that all fields must be completed and an email address containing an "@" symbol must be used. Once signed up the user is brought to another page which thanks them for registereing. 
 
 ### Results Page
 The Results page contains a table of the three most recent tournament winners. This can be updated with new winners after each game and lists the date the game was played and the amount won.
