@@ -21,6 +21,12 @@ The Register page contains a form which allows users to input their name and ema
 ### Results Page
 The Results page contains a table of the three most recent tournament winners. This can be updated with new winners after each game and lists the date the game was played and the amount won.
 
+## Thank You Page
+Once the user completes the Sign Up form on the Register Page, they are brought to a Thank You page which contains the header and links to the rest of the site, avoiding the user being brought away from the site and allowing easy navigation back to other areas of the site.
+
+## Footer
+The footer appears on each page of the site and contains links to Facebook, Instagram and Twitter.
+
 ## Testing
 <table>  
             <tr>
@@ -29,21 +35,72 @@ The Results page contains a table of the three most recent tournament winners. T
               <th>Pass / Fail </th>
             </tr>
             <tr>
-              <td></td>
-              <td>07/10/2022</td>
-              <td>€1,570</td>
+              <td>Clicking Logo</td>
+              <td>Returns user to home page from all pages of the site</td>
+              <td>Pass</td>
             </tr>
             <tr>
-              <td>Chris Moneymaker</td>
-              <td>05/10/2022</td>
-              <td>€990</td>
+              <td>Clicking Naviagation Links</td>
+              <td>Brings user to specified sections of the site</td>
+              <td>Partial Pass - when clicking to sections of the home page, sections appear behind logo.</td>
             </tr>
             <tr>
-            	<td>Phil Ivey</td>
-                <td>03/10/2022</td>
-                <td>€875</td>
-              </tr>
+            	<td>Clicking Footer Icons</td>
+              <td>Brings user to specified sites</td>
+              <td>Pass</td>
+             </tr>
+             <tr>
+            	<td>Clicking Footer Icons</td>
+              <td>Sites open in new tab</td>
+              <td>Pass</td>
+             </tr>
+            <tr>
+            	<td>Completing Sign Up Form</td>
+               <td>Form does not let user leave blank fields</td>
+               <td>Pass</td>
+             </tr>
+             <tr>
+            	<td>Completing Sign Up Form</td>
+               <td>Form requires "@" in email field</td>
+               <td>Pass</td>
+             </tr>
+             <tr>
+            	<td>Completing Sign Up Form</td>
+               <td>Form requires one of the radio buttons to be selected</td>
+               <td>Pass</td>
+             </tr>
+             <tr>
+            	<td>Completing Sign Up Form</td>
+               <td>Sign Up button changes color when hovered over</td>
+               <td>Pass</td>
+             </tr>
+             <tr>
+            	<td>Completing Sign Up Form</td>
+               <td>Completing form brings user to thank you page</td>
+               <td>Pass</td>
+             </tr>
+             <tr>
+            	<td>Resizing window to below 800px width</td>
+              <td>Header is replaced with "Burger" menu</td>
+              <td>Pass</td>
+             </tr>
+             <tr>
+              <td>Resizing window to below 800px width</td>
+              <td>Clicking "Burger" icon opens drop down menu</td>
+              <td>Pass</td>
+             </tr>
+             <tr>
+              <td>Resizing window to below 800px width</td>
+              <td>Clicking links id drop down menu brings user to specified sections</td>
+              <td>Partial Pass - when clicking to sections of the home page, sections appear behind logo and drop down menu does not automatically close</td>
+             </tr>
+             <tr>
+             <td>Resizing window to below 800px width</td>
+              <td>Games section aligns vertically</td>
+              <td>Pass</td>
+             </tr>
 </table>
+
 
 
 Took code from (https://stackoverflow.com/questions/2204634/how-to-disable-automatic-links-coloring-without-selecting-a-color) to remove underlines and color from links.
